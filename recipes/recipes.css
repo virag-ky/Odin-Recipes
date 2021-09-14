@@ -1,0 +1,64 @@
+body {font-family: 'Times New Roman', Garamond, sans-serif;
+      font-size: 1.4em;
+      background-color: #CEE5D0;
+      margin: 0px;}
+
+h2, p, h3, img {margin-left: 12px;}
+
+h1 {text-align: center;
+text-decoration: underline;
+color: #5E454B;
+margin-bottom: 50px;}
+
+h2 {margin-bottom: 10px;}
+
+img {float:left;
+     margin-right: 12px;
+     }
+
+.ingredients {clear: both;
+              background-color: #F3F0D7;
+              color: #5E454B;
+              padding: 15px;
+              margin-top: 10px;}
+
+.steps {background-color: #D8B384;
+        color: #5E454B;
+        padding: 15px;
+        margin: 0px;}
+
+footer {display: flex;
+        background-color: #5E454B;
+        bottom: 0;
+        margin-top: 50px;
+        }
+
+a {color: #D8B384;}
+
+a:hover {color: #F3F0D7;}
+
+ul {list-style-type: disc;
+    }
+
+@media only screen and (min-width: 700px) and (max-width: 1400px){
+  img {margin-bottom: 15px;
+       width: 35%;
+       height: auto;
+       border: 5px solid #5E454B;}
+  p {font-size: 30px;}
+  .ingredients {word-spacing: 5px;}
+  .ingredients, .steps {font-size: 28px;}
+  h1 {margin-bottom: 80px;}
+
+}
+
+@media only screen and (min-width: 1400px) {
+  img {width: 35%;
+       border: 5px solid #5E454B;
+       margin-bottom: 15px;}
+  p {font-size: 35px;}
+  .ingredients {word-spacing: 8px;}
+  .ingredients, .steps {font-size: 30px;}
+  h1 {margin-bottom: 80px;}
+  footer {font-size: 25px;}
+}
