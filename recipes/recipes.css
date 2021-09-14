@@ -12,6 +12,7 @@ margin-bottom: 50px;}
 
 h2 {margin-bottom: 10px;}
 
+
 img {float:left;
      margin-right: 12px;
      }
@@ -40,6 +41,10 @@ a:hover {color: #F3F0D7;}
 ul {list-style-type: disc;
     }
 
+@media only screen and (max-width: 600px) {
+  #salmon-h2 {font-size: 25px;}
+}
+
 @media only screen and (min-width: 700px) and (max-width: 1400px){
   img {margin-bottom: 15px;
        width: 35%;
@@ -59,6 +64,6 @@ ul {list-style-type: disc;
   p {font-size: 35px;}
   .ingredients {word-spacing: 8px;}
   .ingredients, .steps {font-size: 30px;}
-  h1 {margin-bottom: 80px;}
+  h1 {margin-bottom: 100px;}
   footer {font-size: 25px;}
 }
