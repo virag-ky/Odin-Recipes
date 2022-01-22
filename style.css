@@ -79,5 +79,18 @@ ul {
   }
   footer {
     font-size: 1rem;
+    padding: 2px 0;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1900px) {
+  #img1 {
+    width: 600px;
+  }
+  main {
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+  }
+  footer {
+    font-size: 1.2rem;
   }
 }
