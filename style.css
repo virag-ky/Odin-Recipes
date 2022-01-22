@@ -31,6 +31,7 @@ h2 {
   margin-bottom: 50px;
 }
 main {
+  height: 400px;
   width: 80%;
   margin: auto;
   line-height: 1.5em;
@@ -74,8 +75,9 @@ ul {
     margin-bottom: 25px;
   }
   main {
-    width: 90%;
+    width: 95%;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
   footer {
     font-size: 1rem;
@@ -89,8 +91,22 @@ ul {
   main {
     font-size: 1.3rem;
     margin-bottom: 50px;
+    width: 95%;
   }
   footer {
     font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 290px) {
+  #img1 {
+    width: 270px;
+  }
+  main {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  footer {
+    font-size: 0.8rem;
   }
 }
