@@ -6,8 +6,9 @@
 body {
   font-size: 1.5rem;
   background-color: #cee5d0;
-  margin: 0;
-  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 70px;
 }
 #image-div {
   width: 100%;
@@ -30,7 +31,6 @@ h2 {
   margin-bottom: 50px;
 }
 main {
-  height: 400px;
   width: 80%;
   margin: auto;
   line-height: 1.5em;
@@ -39,7 +39,9 @@ p {
   margin: 15px;
 }
 footer {
-  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   background-color: #5e454b;
   padding: 8px;
   font-size: 1.4rem;
@@ -53,4 +55,29 @@ a:hover {
 }
 ul {
   margin-left: 30px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1rem;
+  }
+  #img1 {
+    width: 280px;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 1.4rem;
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+  main {
+    width: 90%;
+    margin-top: 50px;
+  }
+  footer {
+    font-size: 1rem;
+  }
 }
