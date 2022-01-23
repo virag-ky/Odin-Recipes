@@ -1,3 +1,3 @@
-Odin-project #2
+Odin-project
 
-This is a  simple recipe website, built with HTML and CSS.
+This is a simple recipe website, built with HTML and CSS.
