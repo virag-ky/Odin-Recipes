@@ -114,3 +114,23 @@ ul {
     padding: 8px;
   }
 }
+@media only screen and (min-width: 600px) and (max-width: 1900px) {
+  h1 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  .header p {
+    line-height: 1.8rem;
+    width: 50%;
+    margin: 30px;
+  }
+  .ingredients {
+    padding: 50px 10px;
+  }
+  .steps {
+    padding: 40px 10px;
+  }
+  ol {
+    width: 80%;
+  }
+}
